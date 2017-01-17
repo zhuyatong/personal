@@ -1,0 +1,58 @@
+/* Write your styles */
+/*页头部分*/
+body{
+    font-size: 16px;
+}
+header img.am-img-responsive{
+    height: 160px;
+}
+header img.am-circle{
+    margin-left:50%;
+    transform: translateX(-50%);
+    margin-top:10px;
+    border:1px solid #000000;
+}
+div.title{
+    margin-left:50%;
+    transform: translateX(-50%);
+    margin-top:-100px;
+}
+.title p,.title h3{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.name{
+    text-align: center;
+}
+/*标题的设置*/
+h3.title{
+    margin-top: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+h3.title span{
+    border-left: 2px solid #009cda;
+    padding-left: 5px;
+}
+/*个人信息部分*/
+.detail .am-g div{
+    margin-bottom: 10px;
+    font-size: 0.6em;
+}
+.am-icon-btn{
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 1.6rem;
+    margin-right: 10px;
+}
+/*工作经历部分*/
+.experience img.am-circle{
+    border:1px solid #4d4d4d;
+}
+/*作品部分*/
+.works p{
+    text-align: center;
+    color: #000;
+    width: 50%;
+}
